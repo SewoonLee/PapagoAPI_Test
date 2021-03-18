@@ -23,7 +23,7 @@ public class ApiExamTranslateNmt {
         String apiURL = "https://openapi.naver.com/v1/papago/n2mt";
         String text;
         try {
-            text = URLEncoder.encode("젊은작가상 수상작품집 10주년 특별판", "UTF-8");
+            text = URLEncoder.encode("...", "UTF-8");
         } catch (UnsupportedEncodingException e) {
             throw new RuntimeException("인코딩 실패", e);
         }
